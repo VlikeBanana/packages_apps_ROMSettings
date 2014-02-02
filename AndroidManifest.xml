@@ -77,6 +77,15 @@
               </intent-filter>
         </activity>
         <activity
+            android:name=".fragments.HaloSettings"
+            android:label="@string/halo_settings_title" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.aokp.romcontrol.SHORTCUT" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".fragments.Keyboard"
             android:label="@string/keyboard_title" >
             <intent-filter>
